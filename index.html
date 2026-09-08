@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>বাংলা গল্প ভাণ্ডার</title>
+
+    <meta name="description" content="বাংলা গল্প ভাণ্ডারে পড়ুন প্রেম, রহস্য, ভৌতিক, হাসির, শিক্ষামূলক ও বন্ধুত্বের সুন্দর বাংলা গল্প।">
+
+<meta name="keywords" content="বাংলা গল্প, বাংলা গল্প ভাণ্ডার, প্রেমের গল্প, ভৌতিক গল্প, রহস্য গল্প, হাসির গল্প, শিক্ষামূলক গল্প, বন্ধুত্বের গল্প">
+
+<meta name="robots" content="index, follow">
+
+<meta name="author" content="বাংলা গল্প ভাণ্ডার">
+
+<meta name="googlebot" content="index, follow">
+
+    <link rel="icon" type="image/jpeg" href="logo.jpeg">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         Navigation Menu
+    ========================== -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            <img src="logo.jpeg" alt="বাংলা গল্প ভাণ্ডার">
+
+        </div>
+
+
+        <div class="menu">
+
+            <a href="index.html">
+                🏠 হোম
+            </a>
+
+            <a href="#stories">
+                📚 গল্প
+            </a>
+
+            <a href="#categories">
+                🗂️ ক্যাটাগরি
+            </a>
+
+            <a href="#about">
+                ℹ️ আমাদের সম্পর্কে
+            </a>
+
+            <a href="#contact">
+                📩 যোগাযোগ
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- =========================
+         Hero Section
+    ========================== -->
+
+    <section class="hero-section">
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+
+                <span class="hero-badge">
+                    📚 বাংলা গল্পের জগতে স্বাগতম
+                </span>
+
+
+                <h1>
+                    বাংলা গল্প ভাণ্ডার
+                </h1>
+
+
+                <p>
+                    প্রেম, রহস্য, ভৌতিক, হাসির ও শিক্ষামূলক—
+                    আপনার পছন্দের বাংলা গল্পগুলো একসাথে পড়ুন।
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#stories">
+
+                        <button>
+                            📖 গল্প পড়ুন
+                        </button>
+
+                    </a>
+
+
+                    <a href="#categories">
+
+                        <button class="secondary-button">
+                            🗂️ ক্যাটাগরি দেখুন
+                        </button>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-icon">
+                📖
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         Main Container
+    ========================== -->
+
+    <div class="container">
+
+
+        <!-- Search Box -->
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="গল্প খুঁজুন..."
+            >
+
+            <button onclick="searchStories()">
+                খুঁজুন
+            </button>
+
+        </div>
+
+
+
+        <!-- =========================
+             Category Section
+        ========================== -->
+
+        <div class="category-section" id="categories">
+
+            <h2>
+                🗂️ গল্পের ক্যাটাগরি
+            </h2>
+
+
+            <div class="category-list">
+
+                <button onclick="filterCategory('সব')">
+                    📚 সব গল্প
+                </button>
+
+
+                <button onclick="filterCategory('প্রেম')">
+                    ❤️ প্রেমের গল্প
+                </button>
+
+
+                <button onclick="filterCategory('ভৌতিক')">
+                    👻 ভৌতিক গল্প
+                </button>
+
+
+                <button onclick="filterCategory('রহস্য')">
+                    🕵️ রহস্য গল্প
+                </button>
+
+
+                <button onclick="filterCategory('হাসির')">
+                    😂 হাসির গল্প
+                </button>
+
+
+                <button onclick="filterCategory('শিক্ষামূলক')">
+                    🌱 শিক্ষামূলক গল্প
+                </button>
+
+
+                <button onclick="filterCategory('বন্ধুত্ব')">
+                    🤝 বন্ধুত্বের গল্প
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =========================
+             Stories
+        ========================== -->
+
+        <div id="stories">
+
+
+            <!-- Story 1 -->
+
+            <div class="story-card">
+
+                <span class="category" data-category="বন্ধুত্ব">
+                    বন্ধুত্বের গল্প
+                </span>
+
+
+                <h2>
+                    হারিয়ে যাওয়া বন্ধুত্ব
+                </h2>
+
+
+                <p>
+                    একদিন রাহুল তার পুরোনো বন্ধুর সঙ্গে দেখা করতে বের হলো।
+                    অনেক বছর পর তাদের দেখা হতে যাচ্ছিল।
+                </p>
+
+
+                <a href="story1.html">
+
+                    <button>
+                        গল্পটি পড়ুন
+                    </button>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- Story 2 -->
+
+            <div class="story-card">
+
+                <span class="category" data-category="রহস্য">
+                    রহস্য গল্প
+                </span>
+
+
+                <h2>
+                    জঙ্গলের রহস্য
+                </h2>
+
+
+                <p>
+                    গ্রামের পাশে একটি পুরোনো জঙ্গল ছিল।
+                    গ্রামের মানুষ বলত, রাতের বেলা সেখানে অদ্ভুত কিছু ঘটে।
+                </p>
+
+
+                <a href="story2.html">
+
+                    <button>
+                        গল্পটি পড়ুন
+                    </button>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- Story 3 -->
+
+            <div class="story-card">
+
+                <span class="category" data-category="শিক্ষামূলক">
+                    শিক্ষামূলক গল্প
+                </span>
+
+
+                <h2>
+                    সৎ ছেলের গল্প
+                </h2>
+
+
+                <p>
+                    রাকিব ছিল খুবই সৎ একটি ছেলে।
+                    একদিন সে রাস্তায় একটি ব্যাগ পেল।
+                </p>
+
+
+                <a href="story3.html">
+
+                    <button>
+                        গল্পটি পড়ুন
+                    </button>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- Story 4 -->
+
+            <div class="story-card">
+
+                <span class="category" data-category="হাসির">
+                    হাসির গল্প
+                </span>
+
+
+                <h2>
+                    বুদ্ধিমান করিম
+                </h2>
+
+
+                <p>
+                    করিম ছিল গ্রামের সবচেয়ে হাসিখুশি ছেলে।
+                    তার বুদ্ধির কারণে গ্রামের সবাই প্রায়ই অবাক হয়ে যেত।
+                </p>
+
+
+                <a href="story4.html">
+
+                    <button>
+                        গল্পটি পড়ুন
+                    </button>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- Story 5 -->
+
+            <div class="story-card">
+
+                <span class="category" data-category="ভৌতিক">
+                    ভৌতিক গল্প
+                </span>
+
+
+                <h2>
+                    👻 শেষ ট্রেনের যাত্রী
+                </h2>
+
+
+                <p>
+                    রাতের শেষ ট্রেনে বাড়ি ফিরছিল রায়হান।
+                    কিন্তু ট্রেনটি তাকে এমন একটি স্টেশনে নিয়ে গেল,
+                    যে স্টেশন দশ বছর আগেই বন্ধ হয়ে গেছে...
+                </p>
+
+
+                <a href="story5.html">
+
+                    <button>
+                        গল্পটি পড়ুন
+                    </button>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- Story 6 -->
+
+            <div class="story-card">
+
+                <span class="category" data-category="প্রেম">
+                    ❤️ প্রেমের গল্প
+                </span>
+
+
+                <h2>
+                    অসমাপ্ত ভালোবাসা
+                </h2>
+
+
+                <p>
+                    নীলয় আর মায়ার পরিচয় হয়েছিল একটি ছোট্ট
+                    লাইব্রেরিতে। প্রথমে তাদের মধ্যে শুধু বন্ধুত্ব ছিল।
+                    কিন্তু সময়ের সঙ্গে সেই বন্ধুত্ব কখন যে
+                    ভালোবাসায় পরিণত হয়েছিল, তারা নিজেরাও বুঝতে পারেনি।
+                </p>
+
+
+                <a href="story8.html">
+
+                    <button>
+                        গল্পটি পড়ুন
+                    </button>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- Story 7 -->
+
+            <div class="story-card">
+
+                <span class="category" data-category="রহস্য">
+                    🕵️ রহস্য গল্প
+                </span>
+
+
+                <h2>
+                    পুরোনো বাড়ির রহস্য
+                </h2>
+
+
+                <p>
+                    গ্রামের শেষ প্রান্তে দাঁড়িয়ে থাকা পুরোনো বাড়িটিতে
+                    বহু বছর ধরে কেউ থাকত না। কিন্তু প্রতি রাতেই
+                    বাড়িটির একটি জানালায় আলো জ্বলত...
+                </p>
+
+
+                <a href="story9.html">
+
+                    <button>
+                        গল্পটি পড়ুন
+                    </button>
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         About Section
+    ========================== -->
+
+    <section class="about-section" id="about">
+
+        <div class="about-content">
+
+            <h2>
+                ℹ️ আমাদের সম্পর্কে
+            </h2>
+
+
+            <p>
+                📚 বাংলা গল্প ভাণ্ডার একটি অনলাইন গল্পের সংগ্রহশালা,
+                যেখানে বিভিন্ন ধরনের বাংলা গল্প একসাথে পাওয়া যাবে।
+            </p>
+
+
+            <p>
+                ❤️ প্রেম, 👻 ভৌতিক, 🕵️ রহস্য, 😂 হাসির এবং
+                🌱 শিক্ষামূলক—বিভিন্ন ধরনের গল্প পড়তে পারবেন।
+            </p>
+
+
+            <p>
+                আমাদের উদ্দেশ্য হলো বাংলা গল্পকে সহজে,
+                সুন্দরভাবে এবং সবার কাছে পৌঁছে দেওয়া।
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         Contact Section
+    ========================== -->
+
+    <section class="contact-section" id="contact">
+
+    <div class="contact-content">
+
+        <h2>📩 যোগাযোগ করুন</h2>
+
+        <p>
+            বাংলা গল্প ভাণ্ডার সম্পর্কে আপনার কোনো
+            মতামত, পরামর্শ বা প্রশ্ন থাকলে আমাদের সাথে যোগাযোগ করুন।
+        </p>
+
+        <div class="contact-info">
+
+            <!-- Email -->
+            <div class="contact-box">
+
+                📧
+
+                <h3>ইমেইল</h3>
+
+                <p>
+                    <a href="mailto:ashraf.exfreelancer@gmail.com">
+                        ashraf.exfreelancer@gmail.com
+                    </a>
+                </p>
+
+            </div>
+
+
+            <!-- Facebook -->
+            <div class="contact-box">
+
+                📘
+
+                <h3>Facebook</h3>
+
+                <p>
+                    আমাদের Facebook Page
+                </p>
+
+                <p>
+                    <a href="https://www.facebook.com/share/1DE8SCo2Ak/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Facebook Page দেখুন
+                    </a>
+                </p>
+
+            </div>
+
+
+            <!-- YouTube -->
+            <div class="contact-box">
+
+                ▶️
+
+                <h3>YouTube</h3>
+
+                <p>
+                    আমাদের YouTube Channel
+                </p>
+
+                <p>
+                    <a href="https://youtube.com/@movie_man_2026?si=vSCPRNBhsAdGp9zA"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        YouTube Channel দেখুন
+                    </a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- =========================
+         Footer
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>
+                📚 বাংলা গল্প ভাণ্ডার
+            </h2>
+
+
+            <p>
+                বাংলা গল্পের একটি সুন্দর সংগ্রহ।
+                গল্প পড়ুন, উপভোগ করুন এবং গল্পের জগতে হারিয়ে যান।
+            </p>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    🏠 হোম
+                </a>
+
+
+                <a href="#stories">
+                    📚 গল্প
+                </a>
+
+
+                <a href="#categories">
+                    🗂️ ক্যাটাগরি
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 বাংলা গল্প ভাণ্ডার — সর্বস্বত্ব সংরক্ষিত।
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================
+         JavaScript
+    ========================== -->
+
+    <script>
+
+        // Search Function
+
+        function searchStories() {
+
+            let input =
+                document.getElementById("searchInput")
+                .value
+                .toLowerCase();
+
+
+            let stories =
+                document.querySelectorAll(".story-card");
+
+
+            stories.forEach(function(story) {
+
+                let title =
+                    story.querySelector("h2")
+                    .innerText
+                    .toLowerCase();
+
+
+                if (title.includes(input)) {
+
+                    story.style.display = "block";
+
+                } else {
+
+                    story.style.display = "none";
+
+                }
+
+            });
+
+        }
+
+
+
+        // Category Filter Function
+
+        function filterCategory(category) {
+
+            let stories =
+                document.querySelectorAll(".story-card");
+
+
+            stories.forEach(function(story) {
+
+                let storyCategory =
+                    story.querySelector(".category")
+                    .getAttribute("data-category");
+
+
+                if (
+                    category === "সব" ||
+                    storyCategory === category
+                ) {
+
+                    story.style.display = "block";
+
+                } else {
+
+                    story.style.display = "none";
+
+                }
+
+            });
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>

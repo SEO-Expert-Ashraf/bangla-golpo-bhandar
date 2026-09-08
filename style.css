@@ -1,0 +1,677 @@
+css
+/* =========================
+   Basic Website
+========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+
+/* =========================
+   Header
+========================= */
+
+header {
+    background: #0dc119;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* =========================
+   Navigation
+========================= */
+
+.navbar {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #6c5ce7;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #6c5ce7;
+}
+
+
+/* =========================
+   Main Container
+========================= */
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+
+/* =========================
+   Search Box
+========================= */
+
+.search-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    width: 60%;
+    padding: 12px;
+    border: 2px solid #6c5ce7;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.search-box button {
+    margin-left: 8px;
+}
+
+
+/* =========================
+   Category Section
+========================= */
+
+.category-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category-section h2 {
+    color: #6c5ce7;
+    margin-bottom: 20px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-list button {
+    background: white;
+    color: #6c5ce7;
+    border: 2px solid #15bb4f;
+}
+
+.category-list button:hover {
+    background: #6c5ce7;
+    color: white;
+}
+
+
+/* =========================
+   Story Grid
+========================= */
+
+#stories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+/* =========================
+   Story Card
+========================= */
+
+.story-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.story-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.story-card h2 {
+    color: #11afc7;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.story-card p {
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+
+/* =========================
+   Story Category Badge
+========================= */
+
+.category {
+    display: inline-block;
+    background: #eee;
+    color: #6c5ce7;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   Buttons
+========================= */
+
+button {
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4834d4;
+}
+
+
+/* =========================
+   Story Reading Page
+========================= */
+
+.story-card a {
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+
+/* =========================
+   About Section
+========================= */
+
+.about-section {
+    background: white;
+    margin-top: 40px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-content h2 {
+    color: #6c5ce7;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.about-content p {
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   Contact Section
+========================= */
+
+.contact-section {
+    background: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact-content h2 {
+    color: #6c5ce7;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-content > p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contact-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box h3 {
+    color: #6c5ce7;
+    margin: 10px 0;
+}
+
+.contact-box p {
+    font-size: 15px;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+.footer {
+    margin-top: 50px;
+    background: #076c9b;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px 25px;
+}
+
+.footer-content h2 {
+    margin-bottom: 15px;
+}
+
+.footer-content p {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #6c5ce7;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 15px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+/* =========================
+   Mobile Responsive Design
+========================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Story Grid Mobile */
+
+    #stories {
+        grid-template-columns: 1fr;
+    }
+
+    /* Search Mobile */
+
+    .search-box input {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .search-box button {
+        margin-left: 0;
+    }
+
+    /* Category Mobile */
+
+    .category-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category-list button {
+        width: 90%;
+    }
+
+    /* Story Card Mobile */
+
+    .story-card {
+        padding: 20px;
+    }
+
+    .story-card h2 {
+        font-size: 23px;
+    }
+
+    .story-card p {
+        font-size: 16px;
+        line-height: 1.9;
+        text-align: left;
+    }
+
+    /* Contact Mobile */
+
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-box {
+        width: auto;
+    }
+
+    /* Footer Mobile */
+
+    .footer-content {
+        padding: 30px 15px 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+}
+
+/* =========================
+   Hero Section
+========================= */
+
+.hero-section {
+    min-height: 520px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.25)
+        ),
+        url("hero.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 1000px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+}
+
+.hero-text {
+    flex: 1;
+    color: white;
+}
+
+.hero-badge {
+    display: inline-block;
+
+    background: rgba(255, 255, 255, 0.2);
+
+    padding: 8px 15px;
+
+    border-radius: 20px;
+
+    font-size: 15px;
+
+    margin-bottom: 15px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+
+    margin: 10px 0 20px;
+
+    text-shadow:
+        2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text p {
+    font-size: 19px;
+
+    line-height: 1.8;
+
+    max-width: 650px;
+
+    text-shadow:
+        1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-buttons {
+    margin-top: 25px;
+}
+
+.hero-buttons a {
+    text-decoration: none;
+
+    margin-right: 10px;
+}
+
+.hero-buttons button {
+    background: white;
+
+    color: #6c5ce7;
+
+    font-weight: bold;
+
+    font-size: 16px;
+}
+
+.hero-buttons button:hover {
+    background: #f1f1f1;
+}
+
+.hero-buttons .secondary-button {
+    background: transparent;
+
+    color: white;
+
+    border: 2px solid white;
+}
+
+.hero-buttons .secondary-button:hover {
+    background: white;
+
+    color: #6c5ce7;
+}
+
+.hero-icon {
+    font-size: 130px;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    padding: 30px;
+
+    border-radius: 30px;
+}
+
+
+/* =========================
+   Hero Mobile
+========================= */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        min-height: 500px;
+
+        padding: 50px 20px;
+
+        background-position: center;
+    }
+
+    .hero-content {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+    }
+
+    .hero-text p {
+        font-size: 17px;
+    }
+
+    .hero-buttons a {
+        display: block;
+
+        margin: 10px 0;
+    }
+
+    .hero-icon {
+        font-size: 80px;
+
+        padding: 20px;
+    }
+
+}
+
+
+/* Hero Mobile */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        min-height: 430px;
+        padding: 30px 15px;
+        background-position: center;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero-buttons a {
+        width: 90%;
+        text-align: center;
+    }
+
+    .hero-buttons button {
+        width: 100%;
+    }
+
+}
+
+/* Logo Image */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    display: block;
+}
+/* =========================
+   Story Image
+========================= */
